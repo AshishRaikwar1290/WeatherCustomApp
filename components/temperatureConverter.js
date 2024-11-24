@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import styles from "../../weather_app/styles/tempConverter.module.scss"
+import styles from "../tempConverter.module.scss"
 
 const TemperatureConverter = () => {
   const [celsius, setCelsius] = useState('');
