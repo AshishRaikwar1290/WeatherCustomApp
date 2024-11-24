@@ -1,0 +1,24 @@
+
+
+.forecast_container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    .card{
+        border: 1px solid #ddd;
+        border-radius:8px;
+        width: 150px;
+        padding: 16px;
+        font-size: 12px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        .heading{
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+        .details{
+            margin: 4px 0;
+        }
+    }
+}
